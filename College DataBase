@@ -1,0 +1,58 @@
+#include “pch.h”
+#include<iostream>
+#include<string>
+Using namespace std;
+
+class university 
+{
+public:
+void setCollegeType (string type)
+{
+collegeType= type;
+}
+void setCollegeName(string name)
+{
+collegeName= name;
+}
+Void setCourseName_one(string name_one)
+{
+courseName_one= name_one;
+}
+
+
+string getCollegeType() const
+{
+return collegeType;
+}
+
+string getCourseName_one() const
+{
+return courseName_one;
+}
+
+string getCollegeType() const
+{
+return collegeType;
+}
+
+void displayMessage() const
+{
+cout << "Hello! Enter Your College type, College name and Course name\n" << getCollegeType () << getCollegeName () << getCollegeName_one () "!" << endl;
+}
+
+private:
+	string collegeType; 
+	};
+int main()
+{
+	string nameofmycourse;
+University Myuniversity;
+cout << " College type is:" << myUniversity.getCollegeType()
+		<< endl;
+
+cout << "\nPlease enter the college type:" << endl;
+	getline(cin, nameOfCourse); 
+	myUniversity.setCollegetype(nameOfCollege);
+	
+	cout << endl; 
+	myUniversity.displayMessage();
