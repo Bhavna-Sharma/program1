@@ -47,12 +47,4 @@ int main()
 {
 	string nameofmycourse;
 University Myuniversity;
-cout << " College type is:" << myUniversity.getCollegeType()
-		<< endl;
 
-cout << "\nPlease enter the college type:" << endl;
-	getline(cin, nameOfCourse); 
-	myUniversity.setCollegetype(nameOfCollege);
-	
-	cout << endl; 
-	myUniversity.displayMessage();
