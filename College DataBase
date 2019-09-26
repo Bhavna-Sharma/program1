@@ -5,19 +5,7 @@ Using namespace std;
 
 class university 
 {
-public:
-void setCollegeType (string type)
-{
-collegeType= type;
-}
-void setCollegeName(string name)
-{
-collegeName= name;
-}
-Void setCourseName_one(string name_one)
-{
-courseName_one= name_one;
-}
+
 
 
 string getCollegeType() const
