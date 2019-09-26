@@ -16,12 +16,7 @@ return collegeType;
 string getCourseName_one() const
 {
 return courseName_one;
-}
 
-string getCollegeType() const
-{
-return collegeType;
-}
 
 void displayMessage() const
 {
