@@ -3,15 +3,7 @@
 #include<string>
 Using namespace std;
 
-class university 
-{
 
-
-
-string getCollegeType() const
-{
-return collegeType;
-}
 
 string getCourseName_one() const
 {
