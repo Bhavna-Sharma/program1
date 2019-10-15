@@ -18,18 +18,5 @@ cout << "Hello! Enter Your College type, College name and Course name\n" << getC
 private:
 	string collegeType; 
 	};
-int main()
-{
-	string nameofmycourse;
-University Myuniversity;
-cout << " College type is:" << myUniversity.getCollegeType()
-		<< endl;
-
-cout << "\nPlease enter the college type:" << endl;
-	getline(cin, nameOfCourse); 
-	myUniversity.setCollegetype(nameOfCollege);
-	
-	cout << endl; 
-	myUniversity.displayMessage();
 
 
