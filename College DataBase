@@ -15,8 +15,4 @@ void displayMessage() const
 cout << "Hello! Enter Your College type, College name and Course name\n" << getCollegeType () << getCollegeName () << getCollegeName_one () "!" << endl;
 }
 
-private:
-	string collegeType; 
-	};
-
 
