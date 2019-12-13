@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-#include <unistd.h>
+
 
 // This is the thread function that will execute when the thread is created
 //  it passes and receives data by void pointers
