@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <pthread.h>
+
 
 
 // This is the thread function that will execute when the thread is created
